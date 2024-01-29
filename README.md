@@ -10,7 +10,7 @@ This notebook will demonstrate the process I went through to run `neuralbeagle14
 
 I was able to use `llama-cpp-python` _without_ my GPU, and it took me a couple installs before it was really loading all of the layers onto the GPU. It was still fast without the GPU, but that's not the point. ;)
 
-I'm using an NVIDIA RTX A4000 laptop GPU. I will be compiling `llama-cpp-python` instead of using the "usual" `pip install` because I _think_ this is a more reliable method. I will be using the cuBLAS backend, but you can other backends for AMD or Apple or whatever (more or this later).
+I'm using an NVIDIA RTX A4000 laptop GPU. I will be compiling `llama-cpp-python` instead of using the "usual" `pip install` because I _think_ this is a more reliable method. I will be using the cuBLAS backend, but you can use other backends for AMD or Apple or whatever (more or this later).
 
 I will also describe an issue I had with a missing dll, and offer troubleshooting advice for that.
 
